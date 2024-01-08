@@ -38,3 +38,22 @@ git push -u origin master
 * `git add .`
 * `git commit -m "커멘트`
 * `git push origin yangtory` :  작업하고 있는 branch명 반드시 써주기
+
+## pull request 하기
+* 원격 repository 에서 자신이 올린 branch 를 선택
+* `compare & pull request` 요청하기
+* 이때 가급적이면 pull request 를 요청한 이유를 상세하기 작성하기
+* `pull request` 버튼을 클릭하여 요청완료
+
+## 팀장이 `merge` 하기
+* 프로젝트의 상단 메뉴에서 `pull reaquest` 배지 확인
+* 해당 pull request 를 열고 내용 확인하기
+* 확인이 완료되고 정상 pull request 임이 확인되면, `merge` 하기
+
+## 팀원들이 merge 된 프로젝트 pull 하기
+* 로컬 repository 에서 다시 master branch 로 이동 : `git checkout master`
+* 원격에서 pull 해오기 : `git pull origin master`
+
+## 팀원들이 자신의 작업 branch 와 master 동기화 하기
+* 작업 branch 로 이동 : `git checkout yangtory`
+* master 오 동기화 : `git merge master`
