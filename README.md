@@ -66,3 +66,9 @@ git push -u origin master
 ## 팀원들이 자신의 작업 branch 와 master 동기화 하기
 * 작업 brach 로 이동 : `git checkout callor`
 * master 와 동기화 : `git merge master`
+
+## 특정(callor) 브랜치 clone
+* `git clone --branch callor <repo-url>`
+
+## master 브랜치 clone
+* `git clone <repo-url>`
