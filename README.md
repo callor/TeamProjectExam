@@ -9,7 +9,7 @@ mkdir TeamProject
 cd TeamProject
 
 git init
-git remote add orign ....
+git remote add orign https://github.com/callor/TeamProjectExam.git
 git commit -m "커멘트"
 git push -u origin master
 ```
